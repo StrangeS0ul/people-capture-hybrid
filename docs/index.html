@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>People Capture Hybrid — Browser Demo</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/onnxruntime-web/dist/ort.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/pose/pose.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils/drawing_utils.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>People Capture Hybrid</h1>
+      <p>YOLOv8 ONNX + MediaPipe Pose. Client-side fusion.</p>
+    </header>
+    <main>
+      <section class="panel">
+        <video id="video" playsinline></video>
+        <canvas id="canvas"></canvas>
+      </section>
+      <section class="panel info">
+        <div id="status">Loading…</div>
+        <div class="controls">
+          <label>YOLO conf <input id="conf" type="range" min="0" max="1" step="0.01" value="0.35"></label>
+          <label>NMS IoU <input id="iou" type="range" min="0" max="1" step="0.01" value="0.45"></label>
+        </div>
+      </section>
+    </main>
+    <script src="./app.js"></script>
+  </body>
+</html>

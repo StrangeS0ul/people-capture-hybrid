@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+.DS_Store
+
+# Models and artifacts
+models/*.onnx
+models/*.pt
+docs/models/*.onnx
