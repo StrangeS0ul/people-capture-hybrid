@@ -108,7 +108,7 @@ people-capture-hybrid/
 
 ---
 
-## Benchmarks (fill after testing)
+## Benchmarks
 | Mode | HW | FPS | Latency (ms) | Notes |
 |---|---|---:|---:|---|
 | Desktop (pose+hands) | i7 + iGPU | 32 | 34 | SelfieSeg |
