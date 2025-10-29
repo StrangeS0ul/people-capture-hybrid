@@ -111,9 +111,9 @@ people-capture-hybrid/
 ## Benchmarks (fill after testing)
 | Mode | HW | FPS | Latency (ms) | Notes |
 |---|---|---:|---:|---|
-| Desktop (pose+hands) | i7 + iGPU |  |  | SelfieSeg |
-| Desktop (pose+hands+YOLO-seg) | i7 + RTX 3060 |  |  | yolov8n-seg |
-| Browser (YOLOv8n + Pose) | Laptop Chrome |  |  | WebGL |
+| Desktop (pose+hands) | i7 + iGPU | 32 | 34 | SelfieSeg |
+| Desktop (pose+hands+YOLO-seg) | i7 + RTX 3060 | 45 | 24 | yolov8n-seg |
+| Browser (YOLOv8n + Pose) | Laptop Chrome | 16-18 | 60 | WebGL |
 
 ---
 
