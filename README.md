@@ -117,7 +117,7 @@ people-capture-hybrid/
 
 ---
 
-## Troubleshooting
+## Troubleshooting on Local Desktop
 - **No camera prompt:** try `http://127.0.0.1:8000` and allow Camera in site settings.  
 - **ONNX 404 on Pages:** commit `docs/models/yolov8n.onnx`, add `docs/.nojekyll`, and push.  
 - **Slow FPS:** increase **YOLO every** and **Pose every**; lower **TopK**.  
